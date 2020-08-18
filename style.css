@@ -1,0 +1,80 @@
+body {
+    background-color: lavender;
+}
+
+#main-area {
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    text-align: center;
+}
+
+#video-title {
+    margin: 8px auto;
+    width: 600px;
+    text-align: center;
+}
+
+#tool-area {
+    margin: 1em auto;
+    padding: 6px 20px;
+    width: 800px;
+    background-color: lightgray;
+    border: 3px rgb(95, 95, 95) solid;
+    text-align: left;
+}
+
+.tool-line {
+    margin: 0.5em auto;
+    width: 736px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+button {
+    height: 28px;
+    width: 140px;
+}
+
+#editer-area {
+    margin: 1em auto;
+    width: 848px;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+}
+
+#editer tbody tr:hover {
+    background-color: #4c92fc;
+}
+
+#editer tbody tr:focus {
+    background-color: #4c92fc;
+}
+
+#editer thead th {
+    text-align: center;
+    color: rgb(83, 57, 8);
+}
+
+#editer tbody td {
+    text-align: center;
+}
+
+#editer tbody td .strtime {
+    width: 95px;
+}
+
+#editer tbody td .endtime {
+    width: 95px;
+}
+
+#editer tbody td .content {
+    width: 595px;
+}
+
+#editer tbody tr input:focus {
+    background-color: #c2edff;
+}
+
